@@ -1,5 +1,8 @@
 { pkgs }: {
   deps = [
+    pkgs.openbabel2
+    pkgs.yarn
+    pkgs.nodejs-16_x
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
