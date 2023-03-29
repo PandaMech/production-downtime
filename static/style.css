@@ -1,24 +1,24 @@
 #banner{
-        height: 360px;
+        height: 300px;
         width: 100%;
         object-fit: cover;
       }
 
-h1{
+/* h1{
   font-size:40px;
   font-family: Roboto;
   font-weight: normal;
   color:rgb(50,50,50);
   text-align:center;
-}
+} */
 
-h2{
+/* h2{
   font-size:32px;
   font-family: Roboto;
   font-weight: normal;
   color:rgb(100,100,100);
   text-align:center;
-}
+} */
 
 /* p{
   font-family: Roboto;
@@ -32,10 +32,10 @@ h2{
   margin:0px auto;
 }
 
-.bodytext{
+/* .bodytext{
   font-family: Roboto;
   font-weight: normal;
   color:rgb(80,80,80);
   text-align:center;
-}
+} */
 
