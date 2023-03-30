@@ -1,0 +1,14 @@
+#costa_logo{
+    padding: 5px;
+    width: 180px;
+    align-self: flex-start;
+}
+
+#omori_main_title{
+    color: gray;
+    font-size: 30px;
+}
+
+#main_body{
+    background-color: #025338;
+}

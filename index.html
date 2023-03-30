@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="/resources/timer_icon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <title>Omori Downtime</title>
+</head>
+    <body class="container shadow min-vh-100 py-2">
+        <div class= "d-flex justify-content-end">
+            <img id = "costa_logo" src="/resources/costa_logo.png" alt="Costa Logo"/>
+        </div>
+        
+        <div class="row">
+            <h1 class= "d-flex justify-content-end" id="omori_main_title">Omori Operations and downtime Record</h1>
+        </div>
+
+        <div class="row d-flex justify-content-end"> 
+            <div class = "col p-3">
+                <label for="omori_date">Date</label>
+                <input id="omori_date" class="form-control" type="date"/>
+            </div>
+            
+            <div class = "col p-3">
+                <label for="line_select">Production Line</label>
+                <select class="col form-select" aria-label="Default select example" id="line_select">
+                    <option selected></option>
+                    <option value="1">Line 1</option>
+                    <option value="2">Line 2</option>
+                    <option value="3">Bag Line</option>
+                </select>
+
+            </div>
+           
+        </div>
+
+        <button class = "btn btn-primary" id = "omori_button" onclick="button_pressed()">Submit</button>
+        <label id = "test_label">Not Pressed!</label>
+        <div class = "w-25 p-3">
+            <input type="text" class = "form-control" id="sample_text">
+        </div>
+        
+    </body>
+</html>
+
